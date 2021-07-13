@@ -1,0 +1,9 @@
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2021 22:00:38] "GET /notfound HTTP/1.1" 404 -
+INFO:app:Status request successfull
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2021 22:00:41] "GET /status HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:app:Main request successfull
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2021 22:01:25] "GET / HTTP/1.1" 200 -
+INFO:app:Metrics request successfull
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2021 22:01:36] "GET /metrics HTTP/1.1" 200 -
